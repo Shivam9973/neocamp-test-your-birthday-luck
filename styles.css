@@ -1,0 +1,102 @@
+:root {
+    --primery-green: #064E3B;
+    --secondery-green: #34D399;
+}
+
+body {
+    background-color: var(--primery-green);
+    color: var(--secondery-green);
+    padding: 1rem;
+}
+
+h1 {
+    text-align: center;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+}
+
+input,
+label {
+    display: block;
+}
+
+input {
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#date-of-birth {
+    background-color: var(--secondery-green);
+    color: var(--primery-green-blue);
+    text-align: end;
+    font-size: larger;
+}
+
+#lucky-number {
+    background-color: var(--secondery-green);
+    color: var(--primery-green);
+    text-align: end;
+    font-size: large;
+}
+
+#check-button {
+    margin-top: 1rem;
+    margin: auto;
+    display: block;
+    background: transparent;
+    color: var(--secondery-green);
+    border-width: medium;
+    padding: 0.6rem;
+    border-radius: 3px;
+    box-shadow: none;
+}
+
+#output-box {
+    font-size: x-large;
+    margin: auto;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 1rem;
+}
+
+.footer {
+    color: var(--secondery-green);
+    padding: 1rem 05rem;
+    text-align: center;
+    font-size: large;
+    margin-top: 20%;
+}
+
+.footer .link {
+    color: var(--secondery-green);
+    font-size: large;
+}
+
+.footer .social-link {
+    font-size: larger;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bolder;
+    font-size: large;
+    color: var(--secondery-green);
+    padding-top: 1rem;
+}
