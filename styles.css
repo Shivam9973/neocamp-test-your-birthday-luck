@@ -43,6 +43,7 @@ input {
 }
 
 #check-button {
+    font-weight: bolder;
     margin-top: 1rem;
     margin: auto;
     display: block;
